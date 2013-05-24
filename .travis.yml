@@ -5,9 +5,6 @@ env:
   - RVM_RUBY_VERSION="1.9.3"
 
 before_install: >
-  curl -L https://get.rvm.io | bash -s stable --autolibs=enabled &&
-  source ~/.rvm/scripts/rvm &&
-  rvm install $RVM_RUBY_VERSION --autolibs=3 &&
   rvm use $RVM_RUBY_VERSION
 
 script: >
