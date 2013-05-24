@@ -12,5 +12,5 @@ before_install: >
   rvm use $RVM_RUBY_VERSION
 
 script: >
-  gem install rspec json &&
+  gem install rspec json pivotal-tracker &&
   LC_CTYPE="en_US.UTF-8" rake
